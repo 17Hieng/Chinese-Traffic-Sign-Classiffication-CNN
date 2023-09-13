@@ -21,7 +21,7 @@ from tqdm import tqdm
 from skimage import exposure
 
 # load the previously trained model
-model = load_model('final_model.h5')
+model = load_model('Model.h5')
 
 labels_dict = None
 with open('mapSignnamesToClass.csv', mode='r') as infile:
