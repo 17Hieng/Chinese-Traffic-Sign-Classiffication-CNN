@@ -1,13 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# # Step 7: Building the Interface using Tkinter
-
-# ## Pre-requisites if only running interface and not whole file
-
-# In[1]:
-
-
+# Import necessary library
 import tkinter as tk
 import PIL
 import cv2
@@ -24,14 +17,14 @@ from skimage import exposure
 model = load_model('Model.h5')
 
 labels_dict = None
+
+# Map Sign Names to Classes
 with open('mapSignnamesToClass.csv', mode='r') as infile:
     reader = csv.reader(infile)
     next(reader, None)
     labels_dict = {int(rows[0]): rows[1] for rows in reader}
 
-# Function that applies normalization and local contrast enhancement
-
-
+# Normalization function
 def normalize(image_data):
     '''Contrast Limited Adaptive Histogram Equalization (CLAHE). In addition to regular normalization, 
     this function provides local contrast enhancement -- i.e., details of the image can be 
@@ -44,12 +37,7 @@ def normalize(image_data):
     return norm
 
 
-# ## Interface
-
-# In[2]:
-
-
-# initialise GUI
+# Interface
 top = tk.Tk()
 top.geometry('800x600')
 top.title('Traffic Sign Recognition System usig CNN')
