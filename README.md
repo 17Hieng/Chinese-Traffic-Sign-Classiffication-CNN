@@ -11,7 +11,7 @@
 ## Pre-requisite
 - Python3
 - Tools to run .ipynb file (eg: Jupyter Notebook, Visual Studio Code)
-- [Libraries](https://github.com/17Hieng/Keras4TSRD/edit/main/README.md#libraries)
+- [Libraries](#libraries)
 
 ## Libraries
 > `pip install numpy`\
