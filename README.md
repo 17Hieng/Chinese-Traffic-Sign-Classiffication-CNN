@@ -2,7 +2,7 @@
 - Model trained based on TSRD trainning set (http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html)
 - 94% overall accuracy on TSRD test set, can be further improved by feeding more data
 - Able to classify 58 types of traffic sign
-- External Test set adopted from @icfaust via https://github.com/icfaust/CATSAD and modified to adapt 58 classes.
+- External Test set adopted from [@icfaust](https://github.com/icfaust) via https://github.com/icfaust/CATSAD and modified to adapt 58 classes.
 
 ## Executable
 - main.ipynb  ==>  Train CNN Model
@@ -11,7 +11,7 @@
 ## Pre-requisite
 - Python3
 - Tools to run .ipynb file (eg: Jupyter Notebook, Visual Studio Code)
-- Libraries
+- [Libraries](https://github.com/17Hieng/Keras4TSRD/edit/main/README.md#libraries)
 
 ## Libraries
 > `pip install numpy`\
