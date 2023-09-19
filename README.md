@@ -2,6 +2,7 @@
 - Model trained based on TSRD trainning set (http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html)
 - 94% overall accuracy on TSRD test set, can be further improved by feeding more data
 - Able to classify 58 types of traffic sign
+- External Test set adopted from @icfaust via https://github.com/icfaust/CATSAD and modified to adapt 58 classes.
 
 ## Executable
 - main.ipynb  ==>  Train CNN Model
