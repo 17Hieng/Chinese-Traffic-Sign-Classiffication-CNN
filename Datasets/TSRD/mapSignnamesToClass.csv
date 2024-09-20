@@ -1,0 +1,59 @@
+ClassId,SignName
+0,Speed limit (5km/h)
+1,Speed limit (15km/h)
+2,Speed limit (30km/h)
+3,Speed limit (40km/h)
+4,Speed limit (50km/h)
+5,Speed limit (60km/h)
+6,Speed limit (70km/h)
+7,Speed limit (80km/h)
+8,Driving straight ahead or turning left prohibited
+9,Driving straight ahead or turning right prohibited
+10,Driving straight ahead prohibited
+11,Turning left prohibited
+12,Turning left or right prohibited
+13,Turning right prohibited
+14,Overtaking prohibited
+15,Turning around prohibited
+16,Cars prohibited
+17,Using the horn prohibited
+18,End of speed limit (40km/h)
+19,End of speed limit (50km/h)
+20,Driving straight ahead or turning right mandatory
+21,Driving straight ahead mandatory
+22,Turning left mandatory
+23,Turning left or right mandatory
+24,Turning right mandatory
+25,Passing left mandatory
+26,Passing right mandatory
+27,Mandatory direction of the roundabout
+28,Mandatory lane for cars
+29,Using the horn mandatory
+30,Mandatory path for cyclists
+31,Mandatory turn around
+32,"Warning for an obstacle, pass either side"
+33,Warning for a traffic light
+34,Warning for a danger with no specific traffic sign
+35,Warning for a crossing for pedestrians
+36,Warning for cyclists
+37,Warning for children
+38,Warning for a curve to the right
+39,Warning for a curve to the left
+40,Warning for a steep descent
+41,Warning for a steep ascent
+42,Warning to slow down
+43,Warning for an uncontrolled crossroad with a road from the right
+44,Warning for an uncontrolled crossroad with a road from the left
+45,Rest Area
+46,"Warning for a double curve, first right then left"
+47,Warning for a railroad crossing without barriers
+48,Warning for roadworks
+49,Warning for a continuous curve
+50,Warning for a railroad crossing with barriers
+51,Warning for accident-prone area
+52,Stop and give way to all drivers
+53,Entry prohibited
+54,Parking and stopping prohibited
+55,Direction prohibited
+56,Give way to all drivers
+57,Entry prohibited (checkpoint)
